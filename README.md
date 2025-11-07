@@ -2,7 +2,7 @@
 
 Monorepo containing:
 - `auth/` — authentication service
-- `gateway/` — API gateway / backend
+- `gateway/` — API gateway
 - `mobile/Friseur-mobile/` — React Native (Expo) mobile app
 
 ## How to run
