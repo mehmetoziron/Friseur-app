@@ -10,12 +10,11 @@ Monorepo containing:
 ### Backend (example)
 ```bash
 cd auth
-npm install
 npm run dev
-Mobile (Expo)
-bash
-Code kopieren
+
+cd gateway
+npm run dev
+
 cd mobile/Friseur-mobile
-npm install
-expo start
+npm start
 
