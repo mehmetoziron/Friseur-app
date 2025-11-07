@@ -1,0 +1,23 @@
+npm init -y
+npm i typescript --save-dev
+npx tsc --init
+npm i nodemon
+npm i express
+
+gpt npm i -D @types/express @types/node
+gpt npm i -D ts-node typescript
+
+npm i mongoose
+npm i jsonwebtoken
+npm i multer
+    
+    npm i dotenv
+    npm i cors
+    npm i axios
+    npm i jsonwebtoken
+
+4   ctrl s de sunucuyu otomatik acma kapama
+5   api kurmak icin gerekli
+7   TS tip tanimi
+8   ts code paketi yükleme
+12  upload islmeleri icin foto dosya vs

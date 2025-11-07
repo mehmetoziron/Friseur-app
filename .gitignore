@@ -1,0 +1,90 @@
+# Git ignore for Friseur-app
+# -----------------------------
+# GLOBAL IGNORE SETTINGS
+# -----------------------------
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+.pnpm-store/
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# Environment files (very important)
+.env
+.env.local
+.env.*.local
+local.env
+*.env
+
+# Build and output directories
+dist/
+build/
+out/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary folders
+tmp/
+temp/
+
+# Uploads or generated files (optional)
+auth/uploads/
+
+# Expo / React Native specific
+.expo/
+.expo-shared/
+android/
+ios/
+web-build/
+*.keystore
+*.jks
+
+# Expo configuration backups
+expo-debug.log
+expo-error.log
+
+# -----------------------------
+# CUSTOM PROJECT STRUCTURE
+# -----------------------------
+
+# Auth service
+auth/node_modules/
+auth/.env
+auth/uploads/
+auth/dist/
+auth/build/
+
+# Gateway service
+gateway/node_modules/
+gateway/.env
+gateway/dist/
+gateway/build/
+
+# Mobile app
+mobile/Friseur-mobile/node_modules/
+mobile/Friseur-mobile/.expo/
+mobile/Friseur-mobile/.env
+mobile/Friseur-mobile/android/
+mobile/Friseur-mobile/ios/
+mobile/Friseur-mobile/web-build/
+
+# Ignore local secrets in any subfolder
+**/.env
+**/*.env
