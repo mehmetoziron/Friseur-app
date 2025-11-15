@@ -17,7 +17,7 @@ npm run dev
 
 cd mobile/Friseur-mobile
 npm start
-
+```
 
 ---
 
